@@ -28,7 +28,7 @@ Builds use ad-hoc signing and are not notarized.
 ## Usage
 
 - **Restart Services** restarts the current user's clipboard and Handoff services without administrator privileges. Restarting may clear the clipboard.
-- Close the window to keep monitoring in the menu bar. Click the Dock icon to reopen it.
+- Close the window to keep monitoring in the menu bar. Choose **Open Main Panel** from the menu bar icon’s menu or click the Dock icon to reopen it.
 - Choose **Quit** or press **⌘Q** to exit.
 
 Checks run every three seconds and after wake. Services that are idle until needed are treated as healthy. HandoffWatcher does not restart services automatically.

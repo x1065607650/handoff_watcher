@@ -29,6 +29,7 @@
 "menu.close" = "Close Window";
 "menu.minimize" = "Minimize";
 "menu.show" = "Show HandoffWatcher";
+"menu.open_main_panel" = "Open Main Panel";
 "about.description" = "Local Handoff service monitor";
 "qa.menu" = "UI Preview";
 "qa.light" = "Light Appearance";

@@ -29,6 +29,7 @@
 "menu.close" = "关闭窗口";
 "menu.minimize" = "最小化";
 "menu.show" = "显示 HandoffWatcher";
+"menu.open_main_panel" = "打开主面板";
 "about.description" = "本机接力服务监测";
 "qa.menu" = "界面预览";
 "qa.light" = "浅色外观";

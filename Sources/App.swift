@@ -83,6 +83,9 @@ final class HandoffWatcherApp: NSObject, NSApplicationDelegate {
     }
     private func createLocalizedStatusMenu() {
         let menu = NSMenu(); menu.autoenablesItems = false
+        let openMainPanel = NSMenuItem(title: L10n.text("menu.open_main_panel"), action: #selector(showWindow), keyEquivalent: "")
+        openMainPanel.target = self
+        menu.addItem(openMainPanel)
         restartItem = NSMenuItem(title: L10n.text("action.restart"), action: #selector(restart), keyEquivalent: "")
         restartItem.target = self; restartItem.toolTip = L10n.text("clipboard_note")
         menu.addItem(restartItem)
